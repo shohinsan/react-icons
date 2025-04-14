@@ -1,0 +1,20 @@
+# Exclude test files
+/tests/
+/tests/**
+
+# Exclude configuration files
+vitest.config.js
+vitest.setup.js
+vite.config.ts
+tsconfig.json
+.eslintrc*
+.prettierrc*
+
+# Exclude source files if only dist is needed
+/src/
+
+# Exclude other unnecessary files
+Makefile
+*.tgz
+*.log
+.DS_Store
