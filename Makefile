@@ -40,3 +40,8 @@ link:
 # npm access grant read-write shohinsan:@meetx
 # npm install eslint prettier --save-dev
 # npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-prettier eslint-config-prettier --save-dev
+
+# git branch backup
+# git reset --soft $(git rev-list --max-parents=0 HEAD)
+# git commit --amend -m "chore: initial clean commit"
+# git push origin main --force
